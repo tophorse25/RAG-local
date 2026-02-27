@@ -1,23 +1,32 @@
+# ----------------------------
 # Python
+# ----------------------------
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 .env
 
-# Virtual envs
-rag-env/
+# Virtual environments
 .venv/
 venv/
+rag-env/
 
-# RAG caches / artifacts
+# ----------------------------
+# RAG / Vector DB artifacts
+# ----------------------------
+chroma_db/
 .rag_cache/
-*.npy
-*.npz
 *.db
 *.sqlite
 *.index
 *.faiss
+*.npy
+*.npz
 
+# ----------------------------
 # Models / weights
+# ----------------------------
 models/
 *.gguf
 *.bin
@@ -25,5 +34,14 @@ models/
 *.pth
 *.safetensors
 
-# macOS
+# ----------------------------
+# Data files
+# ----------------------------
+data/
+*.pdf
+
+# ----------------------------
+# OS junk
+# ----------------------------
 .DS_Store
+Thumbs.db
