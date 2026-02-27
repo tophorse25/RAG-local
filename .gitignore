@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Virtual envs
+rag-env/
+.venv/
+venv/
+
+# RAG caches / artifacts
+.rag_cache/
+*.npy
+*.npz
+*.db
+*.sqlite
+*.index
+*.faiss
+
+# Models / weights
+models/
+*.gguf
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# macOS
+.DS_Store
